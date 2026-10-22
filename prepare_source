@@ -1,0 +1,6 @@
+pkg=ca-certificates
+version_orig=20260816
+version="$version_orig+nmu1"
+git_src -b "debian/$version" "https://salsa.debian.org/debian/ca-certificates.git"
+version_suffix=gl0~bp2150
+
